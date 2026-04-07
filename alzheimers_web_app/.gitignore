@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Model weights (large)
+backend/model/*.pt
+backend/model/*.pth
+backend/model/*.onnx
+
+# Uploaded scans
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Node (frontend)
+frontend/node_modules/
+frontend/dist/
